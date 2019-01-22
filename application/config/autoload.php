@@ -54,12 +54,11 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'email', 'session');
 |
 | You can also supply an alternative library name to be assigned
-| in the controllers:
+| in the controller:
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-//$autoload['libraries'] = array('database', 'session');
-$autoload['libraries'] = array('session');
+$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -75,7 +74,7 @@ $autoload['libraries'] = array('session');
 |	$autoload['drivers'] = array('cache');
 |
 | You can also supply an alternative property name to be assigned in
-| the controllers:
+| the controller:
 |
 |	$autoload['drivers'] = array('cache' => 'cch');
 |
@@ -90,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url','file','form','html');
+$autoload['helper'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -129,7 +128,7 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model', 'second_model');
 |
 | You can also supply an alternative model name to be assigned
-| in the controllers:
+| in the controller:
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
